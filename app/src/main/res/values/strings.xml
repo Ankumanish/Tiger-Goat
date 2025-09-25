@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Tiger&amp;Goat</string>
+    <string name="settings">SETTINGS</string>
+    <string name="backgroundimage">BackGroundImage</string>
+    <string name="hello">Hello</string>
+    <string name="temp">temp</string>
+    <string name="settings_tab">Settings Tab</string>
+    <string name="msg_here">Msg Here...</string>
+    <string name="togglebutton2">toggleButton2</string>
+    <string name="pause">pause</string>
+    <string name="kills">Kills :</string>
+    <string name="remaining">Remaining :</string>
+    <string name="re_play">Re-Play</string>
+    <string name="home">Home</string>
+    <string name="resume">Resume</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="do_you_want_to_leave">Do you want to leave?</string>
+    <string name="exit_app">Exit App</string>
+    <string name="back_space">back_space</string>
+    <string name="back">back</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="peace">Peace</string>
+    <string name="won">Won</string>
+    <string name="togglebutton1">ToggleButton1</string>
+    <string name="kills10">/10</string>
+    <string name="aliveGoats15">15</string>
+    <string name="board2value">"  0"</string>
+    <string name="_7">" 7"</string>
+    <string name="_0">" 0"</string>
+    <string name="totalKills2">/2</string>
+    <string name="sound">"Sound "</string>
+    <string name="resume3">"Resume "</string>
+    <string name="won2">"Won "</string>
+</resources>

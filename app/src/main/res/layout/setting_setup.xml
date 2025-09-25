@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:background="@drawable/winning_background_image2"
+    tools:context=".setting_setup"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_image2"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:text="@string/settings"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/sound"
+                android:textColor="#000000"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+
+            <ToggleButton
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/sound"
+                android:checked="true"
+                android:textOff=""
+                android:textOn=""
+                android:text="@string/togglebutton1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

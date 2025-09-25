@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Board">
+        <attr name="boardColor" format="color"/>
+        <attr name="dotColor" format="color"/>
+        <attr name="goatImage" format="reference"/>
+        <attr name="tigerImage" format="reference"/>
+        <attr name="selectedGoatImage" format="reference"/>
+        <attr name="selectedTigerImage" format="reference"/>
+        <attr name="remaining2" format="string"/>
+        <attr name="kills2" format="string"/>
+
+    </declare-styleable>
+</resources>
